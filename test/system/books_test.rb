@@ -16,7 +16,7 @@ class BooksTest < ApplicationSystemTestCase
 
     fill_in "Description", with: @book.description
     fill_in "Price", with: @book.price
-    fill_in "Title", with: @book.title
+    fill_in "Name", with: @book.name
     click_on "Create Book"
 
     assert_text "Book was successfully created"
@@ -29,7 +29,7 @@ class BooksTest < ApplicationSystemTestCase
 
     fill_in "Description", with: @book.description
     fill_in "Price", with: @book.price
-    fill_in "Title", with: @book.title
+    fill_in "Name", with: @book.name
     click_on "Update Book"
 
     assert_text "Book was successfully updated"

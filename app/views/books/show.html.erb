@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
-  <%= @book.title %>
+  <strong>Name:</strong>
+  <%= @book.name %>
 </p>
 
 <p>
@@ -14,6 +14,9 @@
   <strong>Price:</strong>
   <%= @book.price %>
 </p>
+
+  <strong>Image:</strong>
+  <%= image_tag @book.image  %>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>
