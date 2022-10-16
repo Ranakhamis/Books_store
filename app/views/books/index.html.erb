@@ -19,7 +19,8 @@
         <td><%= book.name %></td>
         <td><%= book.description %></td>
         <td><%= book.price %></td>
-        <td>  <%= image_tag book.image  %> </td>
+        <td><%= image_tag book.image %></td>
+        
         <td><%= link_to 'Show', book %></td>
         <% if current_user  && current_user.admin %>
           <td><%= link_to 'Edit', edit_book_path(book) %></td>
