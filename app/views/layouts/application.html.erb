@@ -11,6 +11,22 @@
 
   <body>
     <%= render 'layouts/alerts' %>
+    <% if user_signed_in? %>
+      <%= current_user.email %> <br> 
+      <%= link_to 'Settings', edit_user_registration_path %>
+      <%= link_to 'Log out', destroy_user_session_path, method: :delete %>
+      
+      <br>
+      <%= link_to 'Show Books', books_path %>
+      <br>
+
+     <% else %>
+     <br>
+    <%= link_to 'Log in', new_user_session_path %>
+    <br>
+    <%= link_to 'Sign Up',new_user_registration_path, method: :delete %>
+    <br> 
+    <% end %>
     <%= yield %>
   </body>
 </html>
