@@ -1,24 +1,23 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
+  
 * System dependencies
+* Ruby version => 2.6.1
+* Rails version => 6.0.6
 
-* Configuration
-
-* Database creation
-
-* Database initialization
 
 * How to run the test suite
+  Download the project and run the following :
+  1- bundle install 
+  2-you would need to cange mysql password to yours 
+  3- rails s 
 
-* Services (job queues, cache servers, search engines, etc.)
+# This is a book store the covers the following functionalities: <br / >
 
-* Deployment instructions
+1-Admin panel 
+2- User and admin authentication
+3- Admin pages show him all the books with their name, image, description, price, created_at and updated_at and name of the admin who created this product
 
-* ...
+4- Admin can delete a product with a modal of are you sure popup 
+5- Admin can update name, image, description, price of the product in the edit page and wether save it or go back and discard
+6- Admin can show product from the button that will redirect him to the show page with all the products 
+7- Admin can create a new product (book)
