@@ -6,12 +6,11 @@
 
 # Note that this is a backend project so I didn't work on a UI design 
 
-
-* How to run the test suite
-  Download the project and run the following :
-  1- bundle install 
-  2-you would need to cange mysql password to yours 
-  3- rails s 
+  Download the project and run the following : <br>
+  
+  1- bundle install <br>
+  2-you would need to cange mysql password to yours <br>
+  3- rails s <br>
 
 # To create an admin Sign up and login by a normal user and set the admin field by true and save from rails c
 
