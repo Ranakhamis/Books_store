@@ -11,9 +11,11 @@
   2-you would need to cange mysql password to yours 
   3- rails s 
 
+# Note that this is a backend project so I didn't work on a UI design 
+
 # This is a book store the covers the following functionalities:
 
-1-Admin panel <br>
+1-Admin panel  => you can redirect to http://127.0.0.1:3000/admin/ <br>
 2- User and admin authentication <br>
 3- Admin pages show him all the books with their name, image, description, price, created_at and updated_at and name of the admin who created this product <br>
 
