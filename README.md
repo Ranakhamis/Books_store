@@ -1,6 +1,6 @@
 # README
   
-* System dependencies
+* System dependencies: <br>
 * Ruby version => 2.6.1
 * Rails version => 6.0.6
 
@@ -10,7 +10,7 @@
   
   1- bundle install <br>
   2-you would need to cange mysql password to yours <br>
-  3- rails s <br>
+  3- run " rails s " command<br>
 
 # To create an admin Sign up and login by a normal user and set the admin field by true and save from rails c
 
@@ -25,3 +25,7 @@
 5- Admin can update name, image, description, price of the product in the edit page and wether save it or go back and discard <br>
 6- Admin can show product from the button that will redirect him to the show page with all the products <br>
 7- Admin can create a new product (book) <br>
+
+# In This section you can find pictures for the 7 requirements
+
+
