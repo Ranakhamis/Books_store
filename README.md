@@ -17,7 +17,7 @@
 
 # This is a book store the covers the following functionalities:
 
-1-Admin panel  => you can redirect to http://127.0.0.1:3000/admin/ <br>
+1-Admin panel  => you can redirect to http://127.0.0.1:3000/admin/  for a better view <br>
 2- User and admin authentication <br>
 3- Admin pages show him all the books with their name, image, description, price, created_at and updated_at and name of the admin who created this product <br>
 
@@ -26,6 +26,6 @@
 6- Admin can show product from the button that will redirect him to the show page with all the products <br>
 7- Admin can create a new product (book) <br>
 
-# In This section you can find pictures for the 7 requirements
+# In this section you can find pictures for the 7 requirements
 
 
