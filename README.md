@@ -42,34 +42,34 @@
 ## Second Requirement:
 
 
-![github.small](4.png) <br  />
+![github.small](app/assets/images/4.png) <br  />
 
 ## Third Requirement: <br>
 
-![github.small](4.png) <br  />
+![github.small](app/assets/images/4.png) <br  />
 
 
 ## Fourth Requirement: <br>
 
-![github.small](5.png) <br  />
-![github.small](6.png) <br  />
+![github.small](app/assets/images/5.png) <br  />
+![github.small](app/assets/images/6.png) <br  />
 
 
 ## Fifth Requirement: <br>
  
- ![github.small](7.png) <br  />
- ![github.small](8.png) <br  />
+ ![github.small](app/assets/images/7.png) <br  />
+ ![github.small](app/assets/images/8.png) <br  />
 
 ## Sixth Requirement: <br>
 
-![github.small](9.png) <br  />
+![github.small](app/assets/images/9.png) <br  />
 
-![github.small](10.png) <br  />
+![github.small](app/assets/images/10.png) <br  />
 
 ## Seventh Requirement: <br>
 
-![github.small](11.png) <br  />
-![github.small](12.png) <br  />
+![github.small](app/assets/images/11.png) <br  />
+![github.small](app/assets/images/12.png) <br  />
 
 
 
