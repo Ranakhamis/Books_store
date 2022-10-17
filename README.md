@@ -4,6 +4,8 @@
 * Ruby version => 2.6.1
 * Rails version => 6.0.6
 
+# Note that this is a backend project so I didn't work on a UI design 
+
 
 * How to run the test suite
   Download the project and run the following :
@@ -11,7 +13,8 @@
   2-you would need to cange mysql password to yours 
   3- rails s 
 
-# Note that this is a backend project so I didn't work on a UI design 
+# To create an admin Sign up and login by a normal user and set the admin field by true and save from rails c
+
 
 # This is a book store the covers the following functionalities:
 
