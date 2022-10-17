@@ -6,7 +6,7 @@ class BooksController < ApplicationController
   end
 
   def show
-    redirect_to 'http://127.0.0.1:3000/admin/'
+    redirect_to 'http://127.0.0.1:3000/admin/book'
   end
 
   def new
