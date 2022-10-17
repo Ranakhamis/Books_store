@@ -6,14 +6,16 @@
 
 # Note that this is a backend project so I didn't work on a UI design 
 
-  Download the project and run the following : <br>
+## Download the project and run the following : <br>
   
   1- bundle install <br>
   2-you would need to cange mysql password to yours <br>
-  3- run " rails s " command<br>
-
-# To create an admin Sign up and login by a normal user and set the admin field by true and save from rails c
-
+  3- rails db:drop <br>
+  4- rails db:create <br>
+  5- rails db:migrate <br>
+  6- rails db:seed <br>
+  7- run " rails s " command<br>
+  
 
 # This is a book store the covers the following functionalities:
 
