@@ -31,7 +31,7 @@
 
 # In this section you can find pictures for the 7 requirements
 
-## First Requirement:
+## First Requirement -Admin panel:
 
 ![github.small](app/assets/images/1.png) <br  />
 
@@ -39,34 +39,34 @@
 
 ![github.small](app/assets/images/3.png) <br  />
 
-## Second Requirement:
+## Second Requirement - User/admin authentication and roles :
 
 
 ![github.small](app/assets/images/4.png) <br  />
 
-## Third Requirement: <br>
+## Third Requirement - show him all the books: <br>
 
 ![github.small](app/assets/images/4.png) <br  />
 
 
-## Fourth Requirement: <br>
+## Fourth Requirement - delete a product: <br>
 
 ![github.small](app/assets/images/5.png) <br  />
 ![github.small](app/assets/images/6.png) <br  />
 
 
-## Fifth Requirement: <br>
+## Fifth Requirement- update product : <br>
  
  ![github.small](app/assets/images/7.png) <br  />
  ![github.small](app/assets/images/8.png) <br  />
 
-## Sixth Requirement: <br>
+## Sixth Requirement - show product from the button that will redirect him to the show page with all the products in admin panel: <br>
 
 ![github.small](app/assets/images/9.png) <br  />
 
 ![github.small](app/assets/images/10.png) <br  />
 
-## Seventh Requirement: <br>
+## Seventh Requirement - Admin can create a new product : <br>
 
 ![github.small](app/assets/images/11.png) <br  />
 ![github.small](app/assets/images/12.png) <br  />
