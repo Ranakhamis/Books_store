@@ -20,7 +20,7 @@
 # This is a book store the covers the following functionalities:
 ## Note that I gave you the normal view for the admin panel and another view using the gem because it wasn't a bit clear in the document
 
-1-Admin panel  => you can redirect to http://127.0.0.1:3000/admin/book  after signing in for a better view <br>
+1-Admin panel  => you can redirect to http://127.0.0.1:3000/admin/book  after signing in with the admin@gmail.com and password "123456" for a better view <br>
 2- User/admin authentication and roles <br>
 3- Admin pages show him all the books with their name, image, description, price, created_at and updated_at and name of the admin who created this product <br>
 
