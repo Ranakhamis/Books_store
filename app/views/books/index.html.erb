@@ -23,7 +23,7 @@
         <td><%= book.name %></td>
         <td><%= book.description %></td>
         <td><%= book.price %></td>
-        <td><%=  book.image %></td>
+        <td><%= image_tag book.image if book.image.attached?  %></td>
         <td><%= book.created_at %></td>
         <td><%= book.updated_at %></td>
         <td><%= book.user.email %></td>
