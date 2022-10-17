@@ -6,7 +6,11 @@ class BooksController < ApplicationController
   end
 
   def show
-    redirect_to 'http://127.0.0.1:3000/admin/book'
+    if current_user.admin == true
+      redirect_to 'http://127.0.0.1:3000/admin/book'
+    else
+      redirect_to 'http://127.0.0.1:3000/books'
+    end  
   end
 
   def new

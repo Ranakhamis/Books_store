@@ -1,6 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<%= link_to 'Create New Book', new_book_path %>
+<% if current_user  && current_user.admin %>
+  <%= link_to 'Create New Book', new_book_path %>
+<% end %>
+  
 
 <h1>Books</h1>
 
