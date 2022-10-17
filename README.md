@@ -22,7 +22,7 @@
 
 1-Admin panel  => you can redirect to http://127.0.0.1:3000/admin/book  after signing in with the admin@gmail.com and password "123456" for a better view <br>
 2- User/admin authentication and roles <br>
-3- Admin pages show him all the books with their name, image, description, price, created_at and updated_at and name of the admin who created this product <br>
+3- Admin pages show him all the books with their name, image, description, price, created_at and updated_at and email of the admin who created this product <br>
 
 4- Admin can delete a product with a modal of " Are you sure you want to delete this product? " popup <br>
 5- Admin can update name, image, description, price of the product in the edit page and wether save it or go back and discard <br>
