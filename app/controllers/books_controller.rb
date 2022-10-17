@@ -1,15 +1,14 @@
 class BooksController < ApplicationController
   before_action :set_book, only: %i[ show edit update destroy ]
-  # before_action :authenticate_user
  
   def index
     @books = Book.all
   end
 
   def show
+    redirect_to 'http://127.0.0.1:3000/admin/'
   end
 
-  # GET /books/new
   def new
     @book = Book.new
   end
@@ -19,6 +18,7 @@ class BooksController < ApplicationController
 
   def create
     @book = Book.new(book_params)
+    add_admin_who_created_book
     respond_to do |format|
       if @book.save
         format.html { redirect_to book_url(@book), notice: "Book was successfully created." }
@@ -57,6 +57,10 @@ class BooksController < ApplicationController
     end
 
     def book_params
-      params.require(:book).permit(:name, :description, :price, :image)
+      params.require(:book).permit(:name, :description, :price, :image, :user_id)
     end
+
+    def add_admin_who_created_book
+      @book.user_id = current_user.id
+  end 
 end

@@ -5,7 +5,6 @@ class CreateBooks < ActiveRecord::Migration[6.0]
       t.string :description
       t.integer :price
       t.binary :image, :limit => 0.5.megabyte
-
       t.timestamps
     end
   end
